@@ -97,3 +97,6 @@ pip-wheel-metadata/
 
 db.sqlite3
 db.sqlite3-journal
+
+_pycache__/
+__pycache__
