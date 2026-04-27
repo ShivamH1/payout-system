@@ -1,0 +1,10 @@
+django>=4.2
+djangorestframework>=3.15
+psycopg2-binary
+celery>=5.3
+redis
+django-celery-beat
+celery[redis]
+python-decouple
+django-cors-headers
+gunicorn
