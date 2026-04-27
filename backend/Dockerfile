@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-RUN python manage.py migrate || true
+RUN python manage.py migrate && python manage.py seed || true
 
 EXPOSE 8000
 
