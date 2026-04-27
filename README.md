@@ -127,7 +127,3 @@ VITE_API_URL=http://localhost:8000
 4. **State machine** - LEGAL_TRANSITIONS dict blocking illegal transitions
 
 5. **BigIntegerField** - Money stored as paise (integers), never floats
-
-## License
-
-MIT
